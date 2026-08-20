@@ -1,0 +1,31 @@
+# ==========================================
+# BACKEND (Spring Boot / Maven / Java)
+# ==========================================
+pickanddrive-backend/target/
+pickanddrive-backend/*.class
+pickanddrive-backend/*.jar
+pickanddrive-backend/*.war
+pickanddrive-backend/*.ear
+pickanddrive-backend/*.log
+pickanddrive-backend/log/
+pickanddrive-backend/logs/
+
+# ==========================================
+# FRONTEND (React / Vite / Node)
+# ==========================================
+pickanddrive-frontend/node_modules/
+pickanddrive-frontend/dist/
+pickanddrive-frontend/dist-ssr/
+pickanddrive-frontend/.env
+pickanddrive-frontend/.env.local
+pickanddrive-frontend/.env.*.local
+pickanddrive-frontend/*.log
+
+# ==========================================
+# IDEs & System Files
+# ==========================================
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
